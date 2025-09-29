@@ -21,11 +21,11 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                IoT cho trồng nấm
+                XNetFarm
               </span>
               <br />
               <span className="text-foreground">
-                Giải pháp công nghệ cho nông nghiệp thông minh
+                Giải pháp tự động hóa cho nông trại
               </span>
             </h1>
             

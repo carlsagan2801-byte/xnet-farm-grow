@@ -13,6 +13,7 @@ const Header = () => {
     { name: "Giới thiệu", href: "/about" },
     { name: "Sản phẩm", href: "/products" },
     { name: "Công nghệ", href: "/technology" },
+    { name: "Sự kiện", href: "/events" },
     { name: "Blog", href: "/blog" },
     { name: "Hỗ trợ", href: "/support" },
     { name: "Liên hệ", href: "/contact" },

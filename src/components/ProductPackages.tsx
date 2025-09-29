@@ -7,7 +7,7 @@ const ProductPackages = () => {
     {
       id: 1,
       name: "Gói Tiết kiệm",
-      price: "1,199,000",
+      price: "1,999,000",
       description: "Tủ điều khiển thông thường cho khởi đầu",
       popular: false,
       features: [
@@ -22,7 +22,7 @@ const ProductPackages = () => {
     {
       id: 2,
       name: "Gói Cơ bản",
-      price: "2,500,000",
+      price: "3,099,000",
       description: "Quản lý thủ công với giám sát cơ bản",
       popular: false,
       features: [
@@ -37,7 +37,7 @@ const ProductPackages = () => {
     {
       id: 3,
       name: "Gói Tiêu chuẩn",
-      price: "6,000,000",
+      price: "9,390,000",
       description: "Quản lý tự động thông minh (Khuyến nghị)",
       popular: true,
       features: [
@@ -54,7 +54,7 @@ const ProductPackages = () => {
     {
       id: 4,
       name: "Gói Nâng cao",
-      price: "7,500,000",
+      price: "9,699,000",
       description: "Quản lý từ xa qua Internet",
       popular: false,
       features: [
