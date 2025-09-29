@@ -1,12 +1,8 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import { Users, Target, Eye, Award } from "lucide-react";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
+    <main>
         {/* Hero Section */}
         <section className="py-16 lg:py-24 bg-gradient-to-b from-muted/30 to-background">
           <div className="container mx-auto px-4 lg:px-8">
@@ -158,8 +154,6 @@ const About = () => {
           </div>
         </section>
       </main>
-      <Footer />
-    </div>
   );
 };
 
