@@ -1,13 +1,15 @@
 import Hero from "@/components/Hero";
-import ProductPackages from "@/components/ProductPackages";
-import Features from "@/components/Features";
+import ProductShowcase from "@/components/ProductShowcase";
+import AboutSection from "@/components/AboutSection";
+import NewsSection from "@/components/NewsSection";
 
 const Index = () => {
   return (
     <main>
       <Hero />
-      <Features />
-      <ProductPackages />
+      <ProductShowcase />
+      <AboutSection />
+      <NewsSection />
     </main>
   );
 };

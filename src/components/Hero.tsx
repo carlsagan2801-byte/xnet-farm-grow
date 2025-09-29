@@ -19,13 +19,17 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 lg:px-8">
         <div className="max-w-3xl">
           <div className="space-y-6 animate-fade-in">
-            <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                XNetFarm
+            <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+              <span className="text-primary">
+                IoT cho
               </span>
               <br />
-              <span className="text-foreground">
-                Giải pháp tự động hóa cho nông trại
+              <span className="text-primary">
+                trồng nấm
+              </span>
+              <br />
+              <span className="text-sm lg:text-lg text-muted-foreground font-normal">
+                Giải pháp công nghệ cho nông nghiệp thông minh
               </span>
             </h1>
             
@@ -46,10 +50,10 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
               >
                 <Play className="mr-2 h-5 w-5" />
-                Xem demo
+                Đặt hàng với ưu đãi ngay
               </Button>
             </div>
 
