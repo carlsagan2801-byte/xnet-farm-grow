@@ -1,4 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
+import iotSensorsImage from "@/assets/iot-sensors.jpg";
+import farmAccessoriesImage from "@/assets/farm-accessories.jpg";
+import farmSolutionImage from "@/assets/farm-solution.jpg";
 
 const ProductShowcase = () => {
   const products = [
@@ -6,19 +9,19 @@ const ProductShowcase = () => {
       id: 1,
       title: "IoT cho nấm",
       description: "Hệ thống tương tự dành cho việc trồng nấm với cảm biến và thiết bị chuyên dụng",
-      image: "/api/placeholder/150/150"
+      image: iotSensorsImage
     },
     {
       id: 2,
       title: "Phụ kiện",
       description: "Cảm biến cho thiết bị theo dõi về tình trạng thiết bị của hệ thống",
-      image: "/api/placeholder/150/150"
+      image: farmAccessoriesImage
     },
     {
       id: 3,
       title: "Giải pháp",
       description: "Ý tưởng liên quan đến hệ thống của cảm biến trực tiếp khung bao hệ thống",
-      image: "/api/placeholder/150/150"
+      image: farmSolutionImage
     }
   ];
 
@@ -33,8 +36,12 @@ const ProductShowcase = () => {
           {products.map((product) => (
             <Card key={product.id} className="border border-border hover:border-primary/50 transition-colors">
               <CardContent className="p-6 text-center">
-                <div className="w-32 h-32 mx-auto mb-4 bg-muted rounded-lg flex items-center justify-center">
-                  <div className="w-16 h-16 bg-primary/20 rounded-full"></div>
+                <div className="w-32 h-32 mx-auto mb-4 bg-muted rounded-lg overflow-hidden">
+                  <img 
+                    src={product.image} 
+                    alt={product.title}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{product.title}</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">

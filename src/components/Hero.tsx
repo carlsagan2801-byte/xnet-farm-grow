@@ -21,15 +21,7 @@ const Hero = () => {
           <div className="space-y-6 animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
               <span className="text-primary">
-                IoT cho
-              </span>
-              <br />
-              <span className="text-primary">
-                trồng nấm
-              </span>
-              <br />
-              <span className="text-sm lg:text-lg text-muted-foreground font-normal">
-                Giải pháp công nghệ cho nông nghiệp thông minh
+                XNetFarm - giải pháp tự động hóa cho nông trại
               </span>
             </h1>
             
@@ -52,7 +44,6 @@ const Hero = () => {
                 size="lg" 
                 className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
               >
-                <Play className="mr-2 h-5 w-5" />
                 Đặt hàng với ưu đãi ngay
               </Button>
             </div>
